@@ -6,9 +6,6 @@
 
 p1=input("enter your choice ")
 p2=input("enter your choice ")
-rock=1
-paper=2
-scissors=3
 if p1=="rock" and p2=="rock" or p1=="paper" and p2=="paper" or p1=="scissors" and p2=="scissors":
     print("play again same")
 elif p1=="rock" and p2=="paper" or p1=="paper" and p2=="scissors" or p1=="scissors" and p2=="rock":
